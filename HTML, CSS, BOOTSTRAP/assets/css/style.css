@@ -1,8 +1,18 @@
-nav {
+header {
   background-color: #0C0C0C;
-  
 }
-.navbar {
+
+.navbar-lista {
+  list-style: none;
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  gap: 2em;
+  margin: 0;
+  padding: 10px;
+}
+
+.navbar a {
+  color: white;
+  /* display: flex;
+  justify-content: space-between; */
 }
