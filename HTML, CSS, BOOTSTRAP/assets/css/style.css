@@ -2,6 +2,10 @@ header {
   background-color: #0C0C0C;
 }
 
+.navbar {
+  margin: 0 50px;
+}
+
 .navbar-lista {
   list-style: none;
   display: flex;
@@ -15,4 +19,10 @@ header {
   color: white;
   /* display: flex;
   justify-content: space-between; */
+}
+
+.carousel-indicators li {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
 }
