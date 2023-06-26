@@ -1,9 +1,15 @@
 header {
-  background-color: #0C0C0C;
+  background-color: #000;
+}
+
+.nav-title {
+  font-size: 30px !important;
+  font-style: oblique;
+  font-family: serif;
 }
 
 .navbar {
-  margin: 0 50px;
+  /* margin: 0 50px; */
 }
 
 .navbar-lista {
@@ -17,12 +23,77 @@ header {
 
 .navbar a {
   color: white;
-  /* display: flex;
-  justify-content: space-between; */
 }
 
 .carousel-indicators li {
-  width: 10px !important;
-  height: 10px !important;
+  width: 20px !important;
+  height: 20px !important;
   border-radius: 50%;
+}
+
+.h5-container {
+  position: absolute; 
+bottom: 500%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5em;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+/* #carousel-indicators  h5 {
+  bottom: 40%;
+} */
+
+.about h2{
+  margin-bottom: 20px;
+}
+
+.about-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-img {
+  border-radius: 9%;
+}
+
+#nosso-time {
+  background: #e5d7d7;
+}
+
+#nosso-time img {
+  max-width: 300px; 
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+#nosso-time h2 {
+  margin-bottom: 50px;
+}
+
+.card-itens img {
+  width: 80%;
+}
+
+#nossos-produtos h2 {
+  margin-bottom: 50px;
+}
+
+.card-text {
+  font-weight: bold;
+}
+
+button {
+  border: none;
+  border-radius: 10px !important;
+  width: 135px;
+  height: 45px;
+  background: #E30C0C;
+
+}
+
+.rodape {
+  background-color: #000;
 }
